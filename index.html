@@ -42,13 +42,16 @@
       </div>
     </div>
     <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
-    <div class="carousel">
-    <a class="carousel-item" href="#one!"><img src="apple1.jpg"></a>
-    <a class="carousel-item" href="#two!"><img src="apple1.jpg"></a>
-    <a class="carousel-item" href="#three!"><img src="apple1.jpg"></a>
-    <a class="carousel-item" href="#four!"><img src="apple1.jpg"></a>
-    <a class="carousel-item" href="#five!"><img src="apple1.jpg"></a>
   </div>
+
+  <div class="container">
+    <div class="carousel carousel-slider">
+      <a class="carousel-item" href="#one!"><img src="apple1.jpg"></a>
+      <a class="carousel-item" href="#two!"><img src="apple1.jpg"></a>
+      <a class="carousel-item" href="#three!"><img src="apple1.jpg"></a>
+      <a class="carousel-item" href="#four!"><img src="apple1.jpg"></a>
+      <a class="carousel-item" href="#five!"><img src="apple1.jpg"></a>
+    </div>
   </div>
 
   <div class="container">
@@ -167,10 +170,11 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
   <script>
-  document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function() {
     var elems = document.querySelectorAll('.carousel');
     var instances = M.Carousel.init(elems, null);
-  });
+    var instance = M.Carousel.init({fullWidth: true});
+    });
   </script>
 
   </body>

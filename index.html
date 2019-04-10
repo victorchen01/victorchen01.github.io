@@ -1,95 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Parallax Template - Materialize</title>
+  <title>Victor Chen's Website</title>
 
-  <!-- CSS  -->
+  <!-- CSS Links for Materialize -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
 </head>
 
 <body>
+  <!-- Top Bar -->
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
+      <a id="logo-container" class="brand-logo">Victor</a>
+
+      <!-- Nav Bar-->
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="about.html">Home</a></li>
       </ul>
 
+      <!-- Mobile Bar -->
       <ul id="nav-mobile" class="sidenav">
         <li><a href="#">Navbar Link</a></li>
       </ul>
+
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
+  <!-- Landing Image -->
   <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
+
+    <div class="section no-pad-bot" style="height:550px!important">
       <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+
+        <div class="right row center">
+          <h1 class="header center red-text text-lighten-4 z-depth-5">Victor Chen</h1>
+          <h5 class="header col s12 light">Welcome, take a look around</h5>
         </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-        <br><br>
 
       </div>
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
+    <div class="parallax"><img src="background2.jpg"></div>
   </div>
 
-  <div class="container" style="padding:100px!important">
-    <div class="carousel carousel-slider">
-      <a class="carousel-item" href="#one!"><img src="adr.jpg"></a>
-      <a class="carousel-item" href="#two!"><img src="hammer.jpg"></a>
-      <a class="carousel-item" href="#three!"><img src="adr2.jpg"></a>
-      <a class="carousel-item" href="#four!"><img src="online.jpg"></a>
-      <a class="carousel-item" href="#five!"><img src="uo2.jpg"></a>
+  <!-- Media Carousel -->
+  <div class="container" style="padding:50px!important">
+
+    <div class="row center">
+      <h5 class="header col s12 light">Images from my adventures</h5>
     </div>
+
+    <div class="carousel carousel-slider">
+      <a class="carousel-item"><img src="adr.jpg"></a>
+      <a class="carousel-item"><img src="hammer.jpg"></a>
+      <a class="carousel-item"><img src="adr2.jpg"></a>
+      <a class="carousel-item"><img src="online.jpg"></a>
+      <a class="carousel-item"><img src="uo2.jpg"></a>
+    </div>
+
   </div>
 
+  <!-- Footer -->
   <footer class="page-footer teal">
     <div class="container">
       <div class="row">
+
+        <!-- Footer Title -->
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
-
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+          <h5 class="white-text">Important info</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><h9>Email: victor.chen1447@gmail.com</h9></li>
+            <li><h9>Phone: 416-918-0998</h9></li>
+          </ul>
+          <p class="grey-text text-lighten-4"></p>
+        </div>
+
+        <!-- Media Links -->
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect with me</h5>
+          <ul>
+            <li><a class="white-text" href="https://github.com/victorchen01">Github</a></li>
+            <li><a class="white-text" href="https://devpost.com/victorchen1447">Devpost</a></li>
+            <li><a class="white-text" href="https://www.linkedin.com/in/victor-c-295225132/">LinkedIn</a></li>
           </ul>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
+
       </div>
     </div>
+
+    <!-- Copyrights and Credit -->
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      Made using <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
       </div>
     </div>
-  </footer>
 
+  </footer>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -103,5 +116,6 @@
     });
   </script>
 
-  </body>
+</body>
+
 </html>

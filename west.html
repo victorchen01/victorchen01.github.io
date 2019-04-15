@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Victor Chen's Website</title>
+
+  <!-- CSS Links for Materialize -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <!-- Top Bar -->
+  <nav class="white" role="navigation">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" class="brand-logo">Victor</a>
+
+        <!-- Nav Bar-->
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">Home</a></li>about
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="projects.html">Projects</a></li>
+        </ul>
+
+        <!-- Mobile Bar -->
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="#">Navbar Link</a></li>
+        </ul>
+
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </nav>
+
+  <!-- Title -->
+  <div class="container">
+    <div class="row center">
+      <br><br>
+      <h5 class="header col s12 light">Adrenalan Hosted by Redbull & Bell Canada 2018</h5>
+      <br><br>
+    </div>
+  </div>
+
+  <!-- Description of event -->
+  <div class="container">
+    <div class="row center">
+      <p> Test test yeet</p>
+    </div>
+  </div>
+
+  <!-- Slideshow -->
+  <div class="container" style="padding:50px!important">
+    <div class="carousel carousel-slider">
+      <a class="carousel-item"><img src="adr2.jpg"></a>
+      <a class="carousel-item"><img src="adr3.jpg"></a>
+      <a class="carousel-item"><img src="adr4.jpg"></a>
+      <a class="carousel-item"><img src="adr5.jpg"></a>
+      <a class="carousel-item"><img src="adr6.jpg"></a>
+      <a class="carousel-item"><img src="adr8.jpg"></a>
+    </div>
+  </div>
+
+  <!-- Description of project -->
+  <div class="container">
+    <div class="row center">
+      <p> Test test yeet</p>
+    </div>
+  </div>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, null);
+    var instance = M.Carousel.init({fullWidth: true});
+    });
+  </script>
+
+</body>
+</html>

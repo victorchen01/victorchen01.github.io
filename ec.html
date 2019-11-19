@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -10,6 +11,7 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
+
 <body>
   <!-- Top Bar -->
   <nav class="white" role="navigation">
@@ -21,13 +23,18 @@
         <ul class="right hide-on-med-and-down">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
           <li><a href="experience.html">Experience</a></li>
           <li><a href="projects.html">Projects</a></li>
         </ul>
 
         <!-- Mobile Bar -->
         <ul id="nav-mobile" class="sidenav">
-          <li><a href="#">Navbar Link</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="projects.html">Projects</a></li>
         </ul>
 
         <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -58,10 +65,11 @@
   </div>
 
   <!-- Slideshow -->
-  <div class="container">
-    <img class="materialboxed" width="325" src="ec.jpg">
-    <img class="materialboxed" data-caption="My bed for the weekend" width="325" src="ec2.jpg">
-    <img width="650" src="ec.gif">
+  <div class="container" style="padding:50px!important">
+    <div class="col s2 m4">
+      <img class="materialboxed" width="325" src="pics/ec.jpg">
+      <img class="materialboxed" data-caption="My bed for the weekend" width="325" src="pics/ec2.jpg">
+    </div>
   </div>
 
   <!-- Description of project -->
@@ -75,6 +83,12 @@
         would apply a random, distorted sound to make the original audio indistiguishable. The end user, and only that user, would recieve
         and inverse sound wave, allowing them to cancel out the distortion and uncover the original message.
       </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row center">
+      <img width="650" src="pics/ec.gif">
     </div>
   </div>
 
